@@ -1,0 +1,12 @@
+# ProyectoIA - Dependencias de Visión Artificial para Frutillas Festival
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.1.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+pyrealsense2; platform_system == "Linux"
+filterpy>=1.4.5
+scikit-learn>=1.3.0

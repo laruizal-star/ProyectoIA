@@ -1,0 +1,50 @@
+# Python & PyTorch
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# TensorRT & ONNX
+*.engine
+*.trt
+*.onnx
+*.plan
+
+# Datasets & Weights
+weights/*.pt
+weights/*.bin
+datasets/raw/*
+datasets/annotations/*
+!datasets/sample_festival/
+
+# ROS 2 & Colcon
+log/
+install/
+build/
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
